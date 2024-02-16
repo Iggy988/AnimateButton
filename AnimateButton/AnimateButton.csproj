@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="default_user.png" />
+    <None Remove="icons8-chat-48.png" />
+    <None Remove="icons8-control-panel-30.png" />
+    <None Remove="icons8-group-of-projects-48.png" />
+    <None Remove="icons8-home-32.png" />
+    <None Remove="icons8-location-50.png" />
+    <None Remove="icons8-menu-50.png" />
+    <None Remove="icons8-performance-macbook-50.png" />
+    <None Remove="icons8-target-64.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="default_user.png" />
+    <Resource Include="icons8-chat-48.png" />
+    <Resource Include="icons8-control-panel-30.png" />
+    <Resource Include="icons8-group-of-projects-48.png" />
+    <Resource Include="icons8-home-32.png" />
+    <Resource Include="icons8-location-50.png" />
+    <Resource Include="icons8-menu-50.png" />
+    <Resource Include="icons8-performance-macbook-50.png" />
+    <Resource Include="icons8-target-64.png" />
+  </ItemGroup>
+
+</Project>
